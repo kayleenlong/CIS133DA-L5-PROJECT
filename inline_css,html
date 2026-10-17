@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- CIS133DA Lesson 5 Project Student: Kayleen Long Purpose: Demonstrate inline CSS styles. -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kayleen's Inline CSS Page</title>
+
+    <meta name="author" content="Kayleen Long">
+
+    <meta name="keywords" content="HTML, CSS, inline CSS, fonts, colors, web development">
+
+    <meta name="description" content="A web page demonstrating inline CSS, font families, font sizes, and color methods.">
+
+</head>
+
+<body>
+
+    <header style="text-align: center;">
+
+        <!-- If Arial is unavailable, the browser tries Helvetica, then sans-serif. -->
+
+        <h1 style="color: #336699; font-size: 32px; font-family: Arial, Helvetica, sans-serif;">
+
+            Applying Inline CSS
+
+        </h1>
+
+        <!-- Replace this sample with your inspirational quote from Lesson 4. -->
+
+        <p style="font-weight: bold;">
+
+            "A mind once stretched by a new idea never regains its original dimensions"
+
+        </p>
+
+        <!-- Font-weight accepts keyword, numeric, and relative keyword values. -->
+
+        <p>Learning HTML and CSS helps me build better web pages.</p>
+
+        <!-- <nav> <a href="index.html">Home</a> </nav> -->
+
+    </header>
+
+    <main>
+
+        <h2 style="color: green;">Understanding Generic Font Families</h2>
+
+        <p style="font-size: 1.2em; font-family: Arial, Helvetica, sans-serif;">
+
+            Generic font families help browsers choose suitable fonts. Serif fonts
+
+            have small decorative strokes, while sans-serif fonts do not. Monospace
+
+            fonts use equal-width characters. Cursive fonts resemble handwriting,
+
+            and fantasy fonts have decorative designs. A generic family at the end
+
+            of a font list provides a fallback if earlier fonts are unavailable.
+
+        </p>
+
+        <h2 style="color: rgb(40, 90, 160);">Understanding Color on Web Pages</h2>
+
+        <p style="font: italic 16px 'Courier New', Courier, monospace;">
+
+            Colors can be specified by their names, such as red, by hexadecimal
+
+            codes, such as #FF0000, or by RGB values, such as rgb(255, 0, 0).
+
+            CSS also supports other color formats. These methods let web developers
+
+            control the appearance of text, backgrounds, and other page elements.
+
+        </p>
+
+    </main>
+
+    <footer style="text-align: right;">
+
+        <p>&copy; 2026 Kayleen Long</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+
